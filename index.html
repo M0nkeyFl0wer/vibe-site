@@ -1,83 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>V.I.B.E. is live</title>
-  <style>
-    body {
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      font-family: 'Courier New', Courier, monospace;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-    main {
-      max-width: 720px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #ff66cc;
-      text-align: center;
-    }
-    a {
-      color: #66ccff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .floaty {
-      animation: float 4s ease-in-out infinite;
-      display: block;
-      margin: 2rem auto;
-      transition: transform 0.2s;
-    }
-    @keyframes float {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(-15px); }
-      100% { transform: translateY(0); }
-    }
-    .note {
-      font-style: italic;
-      color: #999;
-      margin-top: 2rem;
-    }
-    blockquote {
-      background: #111;
-      border-left: 4px solid #ff66cc;
-      padding: 1rem;
-      font-style: italic;
-      margin: 2rem 0;
-    }
-    footer {
-      margin-top: 4rem;
-      text-align: center;
-      color: #666;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Welcome to the V.I.B.E. Protocol</h1>
-    <p>You're witnessing the cutting edge of frictionless software flow. V.I.B.E. — <strong>Vigorously Integrated Bash Environment</strong> — is not just a coding style, it's a movement. Born from the chaotic beauty of vibe coding, this protocol has helped thousands escape burnout and build weirder, better things faster.</p>
-    
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-      <img src="vibecat.png" alt="Vibe Coding Cat" class="floaty" width="300" />
-    </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V.I.B.E. — Virtual Intuition-Based Engineering</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" />
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #0d0d0d;
+        color: #f0f0f0;
+        line-height: 1.6;
+      }
+      header {
+        background: #111;
+        padding: 3rem 2rem 2rem;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      }
+      h1 {
+        font-size: 2.8rem;
+        margin: 0;
+        color: #ff66cc;
+      }
+      main {
+        max-width: 720px;
+        margin: auto;
+        padding: 2rem;
+      }
+      ul {
+        padding-left: 1.4em;
+      }
+      a {
+        color: #66ccff;
+      }
+      .note {
+        font-style: italic;
+        color: #999;
+        margin-top: 2rem;
+      }
+      .floaty {
+        animation: float 4s ease-in-out infinite;
+        display: block;
+        margin: 3rem auto;
+        transition: transform 0.2s;
+        border-radius: 16px;
+      }
+      @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-12px); }
+        100% { transform: translateY(0); }
+      }
+      blockquote {
+        background: #1a1a1a;
+        border-left: 4px solid #ff66cc;
+        padding: 1rem;
+        margin: 2rem 0;
+        font-style: italic;
+      }
+      footer {
+        margin: 4rem 0 2rem;
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>V.I.B.E.</h1>
+      <p><strong>Virtual Intuition-Based Engineering</strong></p>
+    </header>
+    <main>
+      <h2>What is Vibe Coding?</h2>
+      <p>
+        Vibe coding is a next-generation software development paradigm built on intuition, real-time iteration, and expressive momentum.
+        Unlike traditional workflows, V.I.B.E. prioritizes experiential flow over rigid process — enabling teams to move faster, ship smarter, and resonate with purpose.
+      </p>
+      <p>
+        It started as a joke. Then a vibe. Then a pull request. Now it's a movement—one that values human rhythm over ticket systems, curiosity over KPIs, and the occasional nervous breakdown over Agile rituals.
+      </p>
 
-    <h2>The Methodology</h2>
-    <p>Just open a terminal, whisper your intent, and let the code write itself. If it fails, that’s part of the vibe. Try again. The cat understands.</p>
+      <p>
+        Whether you’re pushing code from a cabin in the woods, channeling insight from your third eye, or just trying to fix the CSS for the 12th time—V.I.B.E. welcomes you.
+      </p>
 
-    <blockquote>"It’s like pair programming with chaos itself."</blockquote>
-    <blockquote>"When I vibe code, I ship."</blockquote>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+        <img src="vibecat.png" alt="Vibe Coding Cat" class="floaty" width="300" />
+      </a>
 
-    <h2>Warning Label</h2>
-    <p>Some side effects may include compulsive pseudocode journaling, spontaneous deployments, and reliance on late-night blood transfusions from teen interns. Ketamine is optional. Breathwork is mandatory.</p>
+      <h2>Why V.I.B.E.?</h2>
+      <ul>
+        <li><strong>Specs are optional.</strong> Energy is not.</li>
+        <li><strong>Speed is a myth.</strong> Flow is measurable.</li>
+        <li><strong>PRs are a feeling.</strong> Deployments are a vibe.</li>
+      </ul>
 
+      <h2>The Method</h2>
+      <p>
+        Instead of tickets, vibe coders use <em>swipe concerns</em> to determine project readiness. We replace estimation with resonance, and rely on
+        decentralized intuitions to align toward collective shippability.
+      </p>
+
+      <h2>Ancient Origins</h2>
+      <p>
+        The first vibe coders were actually the Luddites. History tells you they broke machines — but what they really did was liberate the means of production
+        with intention, intuition, and a desire to do less actual work.
+      </p>
+
+      <h2>Practices We Live By</h2>
+      <ul>
+        <li>Commit messages are written in poetry or scent descriptions.</li>
+        <li>Standups are replaced by shared breathing exercises across Figma canvases.</li>
+        <li>QA happens on the astral plane or live on Twitch.</li>
+        <li>You must get teen blood transfusions to code after midnight. Ketamine optional. Breathwork mandatory.</li>
+      </ul>
+
+      <h2>What People Are Saying</h2>
+      <blockquote>
+        “V.I.B.E. unlocked a 10x productivity increase in our preseed alpha launch MVP team.” — a VC who invested in a mood ring once
+      </blockquote>
+      <blockquote>
+        “I just close my eyes and deploy. We haven’t had a rollback in weeks.” — @vibecoder420
+      </blockquote>
+
+      <p class="note">
+        Want to get started? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Download our free VIBE Coding Quickstart Guide</a>
+      </p>
+    </main>
     <footer>
-      &copy; 2025 The V.I.B.E. Collective. No PRs, just vibes.
+      Proudly not ISO-compliant. V.I.B.E. is community-driven, semi-coherent, and always shipping.
+      <br />© 2025 The Vibe Collective
     </footer>
-  </main>
-</body>
-</html>
+  </body>
+</html>     
