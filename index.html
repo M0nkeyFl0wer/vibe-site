@@ -1,98 +1,18 @@
-Absol<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>V.I.B.E. is live</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background-color: #111;
-      color: #eee;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-
-    main {
-      max-width: 720px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    h1, h2 {
-      color: #ff66cc;
-      text-align: center;
-    }
-
-    a {
-      color: #66ccff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .floaty {
-      animation: float 4s ease-in-out infinite;
-      display: block;
-      margin: 2rem auto;
-      transition: transform 0.2s;
-    }
-
-    .floaty:hover {
-      transform: scale(1.05) rotate(-1deg);
-    }
-
-    @keyframes float {
-      0%   { transform: translateY(0px); }
-      50%  { transform: translateY(-12px); }
-      100% { transform: translateY(0px); }
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>V.I.B.E. is live</h1>
-
-    <section>
-      <h2>Vibe Coding: The Next Wave</h2>
-      <p>
-        After years of struggling with the overhead of frameworks, agile rituals, and decision fatigue,
-        a new movement is taking root: <strong>Vectorized Intuition-Based Engineering</strong>—or V.I.B.E.
-        Developers around the world are embracing flow, reducing friction, and shipping faster than ever before.
-        What started as a joke is now a legitimate productivity breakthrough.
-      </p>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Vibing...">
-        <img src="vibecat.png" alt="Vibe Coding Cat"
-          class="floaty"
-          style="max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 0 20px #ff00ff88;" />
-      </a>
-    </section>
-
-    <footer style="margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #777;">
-      © 2025 V.I.B.E. Labs. All vibes reserved.
-    </footer>
-  </main>
-</body>
-</html>utely. Here's the full updated index.html with the V.I.B.E. intro, animated floating vibe cat that links to a rickroll, and all styling included:
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>V.I.B.E. is live</title>
+  <title>V.I.B.E. — Virtual Intuition-Based Engineering</title>
   <style>
     body {
+      background: #0d0d0d;
+      color: #f0f0f0;
       font-family: system-ui, sans-serif;
-      background-color: #111;
-      color: #eee;
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      text-align: center;
     }
 
     main {
@@ -101,186 +21,85 @@ Absol<!DOCTYPE html>
       padding: 2rem;
     }
 
-    h1, h2 {
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
       color: #ff66cc;
-      text-align: center;
     }
 
-    a {
+    h2 {
+      font-size: 1.4rem;
       color: #66ccff;
-      text-decoration: none;
+      margin-top: 2rem;
     }
 
-    a:hover {
-      text-decoration: underline;
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
     }
 
     .floaty {
       animation: float 4s ease-in-out infinite;
-      display: block;
-      margin: 2rem auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px #ff00ff88;
+      margin-top: 2rem;
       transition: transform 0.2s;
+      cursor: pointer;
     }
 
     .floaty:hover {
-      transform: scale(1.05) rotate(-1deg);
+      transform: scale(1.05);
+      box-shadow: 0 0 30px #ff00ffcc;
     }
 
     @keyframes float {
-      0%   { transform: translateY(0px); }
-      50%  { transform: translateY(-12px); }
-      100% { transform: translateY(0px); }
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>V.I.B.E. is live</h1>
+    <h1>V.I.B.E. is Live</h1>
 
-    <section>
-      <h2>Vibe Coding: The Next Wave</h2>
-      <p>
-        After years of struggling with the overhead of frameworks, agile rituals, and decision fatigue,
-        a new movement is taking root: <strong>Vectorized Intuition-Based Engineering</strong>—or V.I.B.E.
-        Developers around the world are embracing flow, reducing friction, and shipping faster than ever before.
-        What started as a joke is now a legitimate productivity breakthrough.
-      </p>
+    <p>
+      What began as a whispered method among rogue developers has become a quiet revolution.
+      Virtual Intuition-Based Engineering—<strong>V.I.B.E.</strong>—has surged in popularity among those
+      tired of meetings, ticket grooming, and typing. With no formal training and little structure, 
+      it's helping teams ship faster, laugh harder, and occasionally open their third eye.
+    </p>
 
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Vibing...">
-        <img src="vibecat.png" alt="Vibe Coding Cat"
-          class="floaty"
-          style="max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 0 20px #ff00ff88;" />
-      </a>
-    </section>
+    <p>
+      While skeptics claim it’s just chaotic good vibes and muscle memory, V.I.B.E. practitioners say otherwise:
+      <em>“Code is just intuition made manifest.”</em>
+    </p>
 
-    <footer style="margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #777;">
-      © 2025 V.I.B.E. Labs. All vibes reserved.
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Vibe deeper">
+      <img src="vibecat.png" alt="A vibe coding cat in cyberpunk gear" class="floaty" />
+    </a>
+
+    <p>
+      Some side effects may include compulsive pseudocode journaling, spontaneous deployments, and 
+      reliance on late-night blood transfusions from teen interns. Ketamine is optional. Breathwork is mandatory.
+    </p>
+
+    <footer>
+      © 2025 The V.I.B.E. Collective. No PRs, just vibes.
     </footer>
   </main>
 </body>
-</html>
-
-
----
-
-Instructions:
-
-1. Replace your index.html in ~/projects/vibe-site/dist/index.html with the content above.
-
-
-2. Ensure vibecat.png is in ~/projects/vibe-site/dist/.
-
-
-3. Then:
-
-npm run deploy
-
-
-
-Let me know if you want sound effects, a glowing border that pulses, or an animated third eye next.
-
-
-<!DOC<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>V.I.B.E. — Virtual Intuition-Based Engineering</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" />
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f4f4f6;
-        color: #111;
-        line-height: 1.6;
-      }
-      header {
-        background: #fff;
-        padding: 3rem 2rem 2rem;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      }
-      h1 {
-        font-size: 2.8rem;
-        margin: 0;
-      }
-      h2 {
-        margin-top: 2.5rem;
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-      main {
-        max-width: 720px;
-        margin: auto;
-        padding: 2rem;
-      }
-      .note {
-        font-style: italic;
-        color: #666;
-        margin-top: 2rem;
-      }
-      blockquote {
-        background: #fff;
-        border-left: 4px solid #ccc;
-        padding: 1rem;
-        font-style: italic;
-        margin: 2rem 0;
-      }
-      footer {
-        margin: 4rem 0 2rem;
-        font-size: 0.9rem;
-        color: #aaa;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>V.I.B.E.</h1>
-      <p><strong>Virtual Intuition-Based Engineering</strong></p>
-    </header>
-    <main>
-      <h2>What is Vibe Coding?</h2>
-      <p>
-        Vibe coding is a post-disciplinary methodology centered on embodied programming, higher-resonance merges, and minimal cognitive friction.
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="vibecat.png" alt="Vibe Coding Cat" style="max-width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 0 20px #ff00ff88;" />
-  <p style="font-style: italic; margin-top: 1rem;">Witness true chaotic inspiration.</p>
-</div>        It allows engineers to intuit code through ambient intention, breathwork, and unsupervised flow.
-      </p>
-
-      <h2>Why V.I.B.E.?</h2>
-      <ul>
-        <li><strong>Wireframes are optional.</strong> Hunches are not.</li>
-        <li><strong>Architecture emerges naturally.</strong> From vibes.</li>
-        <li><strong>Pull requests can be felt before they exist.</strong></li>
-      </ul>
-
-      <blockquote>“After my fourth round of teen blood transfusions, I shipped a full DAO in a single exhale.”<br>— Lune, 10x dev (now retired)</blockquote>
-
-      <h2>Origin Story</h2>
-      <p>
-        The Luddites were the original vibe coders — rejecting rigid mechanization in favor of artisan intuition.
-        Today, V.I.B.E. recaptures that energy for the metaverse.
-      </p>
-
-      <h2>How to Start</h2>
-      <p>
-        Just click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here for the free V.I.B.E. onboarding guide</a> and breathe deeply.
-        No installation required. Just intention.
-      </p>
-
-      <blockquote>“We funded a V.I.B.E. startup before they showed us anything. We just... felt it.”<br>— Unnamed VC</blockquote>
-
-      <div class="note">
-        It’s like Agile, but with fewer meetings and more mushrooms.
-      </div>
-
-      <footer>
-        Proudly not ISO-compliant. V.I.B.E. is speculative, soulful, and somewhat operational.<br>
-        © 2025 The Vibe Collective
-      </footer>
-    </main>
-  </body>
-</html>
+</html>Ctrl+D
+ctrl+d
+mkdir -p ~/projects/vibe-site/dist
+head -n 20 ~/projects/vibe-site/dist/index.html
+
+
