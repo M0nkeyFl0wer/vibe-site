@@ -3,103 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>V.I.B.E. — Virtual Intuition-Based Engineering</title>
+  <title>V.I.B.E. is live</title>
   <style>
     body {
-      background: #0d0d0d;
+      background-color: #0d0d0d;
       color: #f0f0f0;
-      font-family: system-ui, sans-serif;
-      margin: 0;
-      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
       line-height: 1.6;
-      text-align: center;
+      padding: 2rem;
     }
-
     main {
       max-width: 720px;
       margin: auto;
-      padding: 2rem;
     }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+    h1, h2 {
       color: #ff66cc;
+      text-align: center;
     }
-
-    h2 {
-      font-size: 1.4rem;
+    a {
       color: #66ccff;
-      margin-top: 2rem;
+      text-decoration: none;
     }
-
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
+    a:hover {
+      text-decoration: underline;
     }
-
     .floaty {
       animation: float 4s ease-in-out infinite;
-      max-width: 100%;
-      height: auto;
-      border-radius: 1rem;
-      box-shadow: 0 0 20px #ff00ff88;
-      margin-top: 2rem;
+      display: block;
+      margin: 2rem auto;
       transition: transform 0.2s;
-      cursor: pointer;
     }
-
-    .floaty:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 30px #ff00ffcc;
-    }
-
     @keyframes float {
       0% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
+      50% { transform: translateY(-15px); }
       100% { transform: translateY(0); }
     }
-
+    .note {
+      font-style: italic;
+      color: #999;
+      margin-top: 2rem;
+    }
+    blockquote {
+      background: #111;
+      border-left: 4px solid #ff66cc;
+      padding: 1rem;
+      font-style: italic;
+      margin: 2rem 0;
+    }
     footer {
       margin-top: 4rem;
-      font-size: 0.9rem;
-      color: #999;
+      text-align: center;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>V.I.B.E. is Live</h1>
-
-    <p>
-      What began as a whispered method among rogue developers has become a quiet revolution.
-      Virtual Intuition-Based Engineering—<strong>V.I.B.E.</strong>—has surged in popularity among those
-      tired of meetings, ticket grooming, and typing. With no formal training and little structure, 
-      it's helping teams ship faster, laugh harder, and occasionally open their third eye.
-    </p>
-
-    <p>
-      While skeptics claim it’s just chaotic good vibes and muscle memory, V.I.B.E. practitioners say otherwise:
-      <em>“Code is just intuition made manifest.”</em>
-    </p>
-
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Vibe deeper">
-      <img src="vibecat.png" alt="A vibe coding cat in cyberpunk gear" class="floaty" />
+    <h1>Welcome to the V.I.B.E. Protocol</h1>
+    <p>You're witnessing the cutting edge of frictionless software flow. V.I.B.E. — <strong>Vigorously Integrated Bash Environment</strong> — is not just a coding style, it's a movement. Born from the chaotic beauty of vibe coding, this protocol has helped thousands escape burnout and build weirder, better things faster.</p>
+    
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+      <img src="vibecat.png" alt="Vibe Coding Cat" class="floaty" width="300" />
     </a>
 
-    <p>
-      Some side effects may include compulsive pseudocode journaling, spontaneous deployments, and 
-      reliance on late-night blood transfusions from teen interns. Ketamine is optional. Breathwork is mandatory.
-    </p>
+    <h2>The Methodology</h2>
+    <p>Just open a terminal, whisper your intent, and let the code write itself. If it fails, that’s part of the vibe. Try again. The cat understands.</p>
+
+    <blockquote>"It’s like pair programming with chaos itself."</blockquote>
+    <blockquote>"When I vibe code, I ship."</blockquote>
+
+    <h2>Warning Label</h2>
+    <p>Some side effects may include compulsive pseudocode journaling, spontaneous deployments, and reliance on late-night blood transfusions from teen interns. Ketamine is optional. Breathwork is mandatory.</p>
 
     <footer>
-      © 2025 The V.I.B.E. Collective. No PRs, just vibes.
+      &copy; 2025 The V.I.B.E. Collective. No PRs, just vibes.
     </footer>
   </main>
 </body>
-</html>Ctrl+D
-ctrl+d
-mkdir -p ~/projects/vibe-site/dist
-head -n 20 ~/projects/vibe-site/dist/index.html
-
-
+</html>
